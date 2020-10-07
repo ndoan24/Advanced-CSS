@@ -1,4 +1,36 @@
 body {
+    background-color: salmon;
+
+}
+
+.head {
+    background-color: skyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    height: 350px;
+    width: 200px;
+    transition-property: background-color; font-family font-size;
+    transition-duration: 4s;
+}
+
+
+
+/*trigger with a psuedo-class*/
+
+.head: hover {
+    background-color: green;
+    color: white;
+    font-family: :-monospace;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+
+/* body {
     background: #333;
 }
 
@@ -20,4 +52,4 @@ body {
     background: red;
     border-radius: 50%;
     transform: rotateY(180deg);
-}
+} */
