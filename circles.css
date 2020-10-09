@@ -19,7 +19,6 @@
     transition-property: color, background-color, transform;
     transition-duration: 4s;
     transition-delay: 
-   
 }
 
 .hover:hover {
@@ -50,13 +49,13 @@ transform: rotate(360deg);
 .skew:hover {
     color: red;
     background-color: turquoise;
-    transform: skew(10,10);
+    transform: skew(10deg,10deg);
 }
 
 .scale:hover {
     color:palegreen;
 background-color: turquoise;
-transform: scale(60px);
+transform: scale(2, 2);
 
 }
 
