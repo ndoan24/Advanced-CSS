@@ -18,6 +18,7 @@
     color:white;
     transition-property: color, background-color, transform;
     transition-duration: 4s;
+    transition-delay: 
    
 }
 
@@ -34,11 +35,40 @@ background-color: turquoise;
 transform: rotate(360deg);
 }
 
-.translateX:hover {
+.translateX:hover{
     color:black;
     background-color: turquoise;
-    transform: translateX (30px);
+    transform: translateX(30px);
 }
+
+.translateY:hover{
+    color:green;
+    background-color: turquoise;
+    transform: translateY(30px);
+}
+
+.skew:hover {
+    color: red;
+    background-color: turquoise;
+    transform: skew(10,10);
+}
+
+.scale:hover {
+    color:palegreen;
+background-color: turquoise;
+transform: scale(60px);
+
+}
+
+.threeD {
+    color: salmon;
+    background-color: turquoise;
+    transform: threeD(10,10);
+}
+
+
+
+
 
 /* 
 .rotate {
