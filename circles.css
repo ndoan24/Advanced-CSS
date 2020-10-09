@@ -1,0 +1,108 @@
+.background {
+    color: tan;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.hover, .rotate, .translateX, .translateY, .threeD, .skew, .scale {
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+    color:white;
+    transition-property: color, background-color, transform;
+    transition-duration: 4s;
+   
+}
+
+.hover:hover {
+color: yellow;
+background-color: turquoise;
+
+}
+
+
+.rotate:hover {
+color: purple;
+background-color: turquoise;
+transform: rotate(360deg);
+}
+
+.translateX:hover {
+    color:black;
+    background-color: turquoise;
+    transform: translateX (30px);
+}
+
+/* 
+.rotate {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.translateX {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.threeD {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.skew {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.translateY {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scale {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+} */
