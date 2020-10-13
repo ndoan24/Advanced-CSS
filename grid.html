@@ -26,10 +26,58 @@
 * { margin: 0;
 padding: 0;
 font-family: monospace;
+font-size: 25px;
 }
 
+ul li {
+  float: left;
+  list-style-type: none;
+  background-color: violet;
+  opacity: 0.8;
+
+}
+
+ul li a {
+border: black solid 1px;
+box-shadow: 15px 8px; 16px 15px black;
+margin-right: 5px;
+text-decoration: none;
+width: 120px;
+height: 50px;
+line-height: 50px;
+display: inline-block;
+color: rebeccapurple;
+text-align: center;
+
+}
+
+ul li a:hover {
+background-color: silver;
+color: seagreen;
+font-size: 30px;
+}
+
+.dropdown li a {
+height: 25px;
+line-height: 25px;
 
 
+}
+
+.dropdown li {
+  float: none;
+
+}
+
+li .dropdown {
+visibility: hidden;
+/* display: none;  */
+}
+
+li:hover .dropdown {
+  visibility: visible;
+  /* display: block; */
+}
 
 
 </style>
@@ -37,40 +85,6 @@ font-family: monospace;
 
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="circles.html">Circles</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="landing.html">Landing</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="transitions.html">Transitions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="animation.html">Animations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="grid.html">Dropdown</a>
-        </li>
-
-
-        </li>
-      </ul>
-    </div>
-  </nav>
-
 
   <header>
 
@@ -111,6 +125,9 @@ font-family: monospace;
 
 
   </header>
+
+
+
   <h1>How To Make PB&J</h1>
   <div class="container">
     <hr>
