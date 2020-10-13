@@ -1,108 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap cdn-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--bootstrap cdn-->
-    <!--css link-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Grid</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap cdn-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--bootstrap cdn-->
+  <!-- css link
+    <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <title>Grid</title>
 </head>
+
+<style>
+* { margin: 0;
+padding: 0;
+font-family: monospace;
+}
+
+
+
+
+
+</style>
+
+
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="circles.html">Circles</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="landing.html">Landing</a>
-            </li>
-    
-            <li class="nav-item">
-              <a class="nav-link" href="transitions.html">Transitions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="animation.html">Animations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="animation.html">Animations</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
         </li>
-           
-    
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="circles.html">Circles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="landing.html">Landing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="transitions.html">Transitions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="animation.html">Animations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="grid.html">Dropdown</a>
+        </li>
+
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="animation.html">Animation</a>
+
+        <div class="dropdown">
+          <ul>
+            <li><a href="animation.html">Home</a></li>
+            <li><a href="animation.html">Other</a></li>
+            <li><a href="animation.html">About Me</a></li>
+
           </ul>
-        </div>
-      </nav>
 
-      
+        </div>
 
-    <h1>How To Make PB&J</h1>
-    <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-6">
-                <h2>Step 1</h2>
-                <p> Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Providentaccusantium
-                    dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
-                    accusantium
-                    aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
-            </div>
-            <div class="col-6">
-                <img src="https://thecozyapron.com/wp-content/uploads/2019/07/strawberry-jam_thecozyapron_1.jpg"
-                    style="width:250px; height:300px">
-            </div>
+      </li>
+      <li><a href="circles.html">Circles</li>
+
+      <ul>
+        <li><a href="animation.html">Home</a></li>
+        <li><a href="animation.html">Other</a></li>
+        <li><a href="animation.html">About Me</a></li>
+
+      </ul>
+
+      </div>
+
+
+
+
+      <li><a href="grid.html">Peanut Butter and Jelly</a></li>
+
+    </ul>
+
+
+
+
+  </header>
+  <h1>How To Make PB&J</h1>
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <h2>Step 1</h2>
+        <p> Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Providentaccusantium
+          dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
+          accusantium
+          aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
+      </div>
+      <div class="col-6">
+        <img src="https://thecozyapron.com/wp-content/uploads/2019/07/strawberry-jam_thecozyapron_1.jpg"
+          style="width:250px; height:300px">
+      </div>
+    </div>
+    <!--second row-->
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <img src="https://www.culinaryhill.com/wp-content/uploads/2019/04/Homemade-Peanut-Butter-Culinary-Hill-hero.jpg"
+          style="width:250px; height:300px">
+      </div>
+      <div class="col-6">
+        <h2><strong>Step 2</strong></h2>
+        <p> Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Providentaccusantium
+          dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
+          accusantium
+          aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
+      </div>
+
+      <hr>
+      <div class=" row">
+        <div class="col-6">
+          <h2>Step 3</h2>
+          <p>Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Providentaccusantium
+            dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
+            accusantium
+            aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
         </div>
-        <!--second row-->
-        <hr>
-        <div class="row">
-            <div class="col-6">
-                <img src="https://www.culinaryhill.com/wp-content/uploads/2019/04/Homemade-Peanut-Butter-Culinary-Hill-hero.jpg"
-                    style="width:250px; height:300px">
-            </div>
-            <div class="col-6">
-                <h2><strong>Step 2</strong></h2>
-                <p> Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Providentaccusantium
-                    dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
-                    accusantium
-                    aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
-            </div>
-           
-            <hr>
-            <div class=" row">
-                <div class="col-6">
-                    <h2>Step 3</h2>
-                    <p>Get PB&J from the cabinet Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Providentaccusantium
-                        dolores necessitatibus cum illo? Debitis, pariatur provident. Reiciendis aut facere iusto,
-                        accusantium
-                        aliquam recusandae corrupti? Voluptatibus quas explicabo maxime mollitia.</p>
-                </div>
-                <div class="col-6">
-                    <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/04/Hearty-Yeast-Free-Bread-WS-Thumbnail.jpg"
-                        style="width:250px; height:300px">
-                </div>
-            </div>
+        <div class="col-6">
+          <img
+            src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/04/Hearty-Yeast-Free-Bread-WS-Thumbnail.jpg"
+            style="width:250px; height:300px">
         </div>
+      </div>
+    </div>
