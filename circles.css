@@ -18,7 +18,7 @@
     color:white;
     transition-property: color, background-color, transform;
     transition-duration: 4s;
-    transition-delay: 
+    transition-delay: 2s;
 }
 
 .hover:hover {
